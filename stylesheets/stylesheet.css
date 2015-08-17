@@ -53,55 +53,58 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
-.page-header {
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+.page-header {}
 
 @media screen and (min-width: 64em) {
-  .page-header {
-    padding: 5rem 6rem; } }
+  .page-header > * {
+    max-width: 64rem;
+    padding: 0 6rem;
+    margin-left: auto;
+    margin-right: auto; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 4rem; } }
+  .page-header > * {
+    padding: 0 4rem; } }
 
 @media screen and (max-width: 42em) {
-  .page-header {
-    padding: 2rem 1rem; } }
+  .page-header > * {
+    padding: 0 1rem; } }
 
-.project-name {
+.contact-tag {
+  padding-right: 1rem;
+  text-decoration: underline; }
+
+.article-name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
 @media screen and (min-width: 64em) {
-  .project-name {
+  .article-name {
     font-size: 3.25rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-name {
+  .article-name {
     font-size: 2.25rem; } }
 
 @media screen and (max-width: 42em) {
-  .project-name {
+  .article-name {
     font-size: 1.75rem; } }
 
-.project-tagline {
+.article-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
   opacity: 0.7; }
 
 @media screen and (min-width: 64em) {
-  .project-tagline {
+  .article-tagline {
     font-size: 1.25rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-tagline {
+  .article-tagline {
     font-size: 1.15rem; } }
 
 @media screen and (max-width: 42em) {
-  .project-tagline {
+  .article-tagline {
     font-size: 1rem; } }
 
 .main-content :first-child {
