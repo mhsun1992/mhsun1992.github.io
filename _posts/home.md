@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Welcome to GitHub Pages
+layout: post
 ---
 
 {{ page.title }}
