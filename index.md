@@ -1,12 +1,10 @@
 ---
 title: MengHua Sun
-layout: default
+layout: home
 ---
 
-<section class="main-content">
 {% for post in site.posts %}
 <h3><a href="{{ post.url }}">{{ post.title }}<span class="octicon octicon-link">{{ post.date | date_to_string }}</span></a></h3>
-    <p>{{ post.description }}</p>
+    <p>{{ post.excerpt }}</p>
 {% endfor %}
-</section>
 
