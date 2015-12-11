@@ -1,0 +1,263 @@
+﻿html,body,div,dl,dt,dd,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,em,button{margin:0;padding:0;border:0;list-style:none;outline:none;}
+html{width:100%;height:100%;overflow:hidden;}
+body{font-family:'microsoft yahei','SimHei','sans-serif';font-size:62.5%;color:#333;height:100%;line-height:1.8em;background:#ba150a;overflow:hidden;width:100%;}
+.nfont{font-family:'Georgia','microsoft yahei','SimHei';}
+.hide{display:none;}
+.show{display:block;}
+.pointer{cursor:pointer;}
+.fl{float:left;}
+.fr{float:right;}
+.vm{vertical-align:middle;}
+.vb{vertical-align:bottom;}
+.bold{font-weight:bold;}
+.blk{color:#333}
+.white{color:#fff;}
+.blue{color:#0366a1;}
+.gray{color:#797979;}
+.gray2{color:#e4e4e4;}
+.tcenter{text-align:center;}
+.tleft{text-align:left;}
+.tright{text-align:right;}
+.clear{clear:both;height:1em;}
+.f12{font-size:1.2em;}
+.f14{font-size:1.4em;}
+.f16{font-size:1.6em;}
+.f18{font-size:1.8em;}
+.f20{font-size:2em;}
+.f22{font-size:2.2em;}
+.f24{font-size:2.4em;}
+.f26{font-size:2.6em;}
+.f28{font-size:2.8em;}
+.f30{font-size:3em;}
+.f36{font-size:3.6em;}
+.f50{font-size:5em;}
+.cp{position:absolute;}
+.autop {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.autom{margin:0 auto;}
+#mask_div,#sharemask{position:fixed;z-index:311;top:0;left:0;display:none;zoom:1;background:rgba(0, 0, 0, 1);filter:Alpha(opacity=70);-moz-opacity:0.7;opacity: 0.7; background:rgba(0, 0, 0, 0.7)!important;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000)!important;height:100%;width:100%;}
+#sharemask{z-index:512;}
+#sharemt{position:fixed;z-index:513;top:0;left:0;display:none;zoom:1;height:100%;width:100%;background:url(../img/sharemt.png) no-repeat top center;background-size:100% auto;}
+#hoverpane{position:fixed;z-index:299;top:0;left:0;display:none;zoom:1;height:100%;width:100%;background:rgba(255,255,255,0)}
+
+body{background:url(../img/bg.png) no-repeat;background-size:100% 100%;}
+#loadmask{background:url(../img/bg.png) no-repeat;background-size:100% 100%;position:absolute;width:100%;height:100%;z-index:300;}
+#dltit_bar{position:absolute;z-index:100;background:url(../img/bg_titbar.png) no-repeat;background-size:100% auto;width:100%;height:8em;}
+#denglong_box{overflow:hidden;height:40%;width:100%;z-index:200;margin-top:1em;position:absolute;}
+#left_dl{position:absolute;z-index:99;background:url(../img/left_dl.png) no-repeat;background-size:100% auto;width:35%;height:20em;margin-top:13%;left:-2em;}
+#right_dl{position:absolute;z-index:99;background:url(../img/right_dl.png) no-repeat;background-size:100% auto;width:35%;height:20em;margin-top:12.4%;right:-1.6em;}
+
+
+/* 基础默认css 适应iphone5 */
+#home_box{position:absolute;z-index:198;margin-top:6em;width:100%;height:90%;}
+#home_bg{position:absolute;background: url(../img/homebg.png) no-repeat top center;background-size: 100% auto;width: 100%;height:100%;}
+#zyan{position:absolute;background: url(../img/zyan.png) no-repeat top center;background-size: 100% auto;width: 100%;height:100%;display:none;}
+#home_gj{position:absolute;background: url(../img/ssdl.png) no-repeat;background-size:100% 100%;width:100%;height:24%;top:50%;}
+#start_div{position:absolute;bottom:6%;width:100%;height:20%;margin: 0 auto;z-index:198;}
+#start_bt{background: url(../img/start.png) no-repeat bottom center;background-size:100% auto;width:50%;height:100%;margin: 0 auto;}
+
+#pop_div{z-index:312;position:absolute;background: url(../img/popbg.png) no-repeat top center;background-size:100% auto;width:100%;height:70%;top:12%;display:none;}
+#pop_close{position:absolute;background: url(../img/pob_close.png) no-repeat top center;background-size:100% auto;width:100%;height:10%;margin-top:-12%;}
+#all_fail{background: url(../img/all_fail.png) no-repeat top center;background-size:100% auto;width:100%;height:100%;}
+#def_fail{background: url(../img/def_fail.png) no-repeat top center;background-size:100% auto;width:100%;height:100%;}
+
+#game_guide{width:100%;height:100%;}
+#guide_mm{width:83%;height:49%;margin:0 auto;}
+#guide_hline{background: #b30e0e;
+border-top: 12px solid #fff;
+border-bottom: 12px solid #fff;
+height: 2px;
+margin: 20% 9% 0 9%;
+position: absolute;
+width: 82%;
+border-left: 0;
+border-right: 0;
+opacity: 0.8;}
+#guide_bz{background: url(../img/bz.png) no-repeat top center;background-size:auto 100%;width:100%;height:18%;margin-top:36%;position: absolute;}
+#guide_fline{background:url(../img/fline.png) no-repeat bottom center;background-size:auto 90%;height:20%;position:absolute;width:100%;margin-top:14%;}
+#guide_fire{position:absolute;width:100%;margin-top:14%;text-align:center;height:20%;display:none;}
+#guide_fire img{width:10%;}
+#guide_hand{position:absolute;width:100%;height:16%;margin-top: 30%;}
+.hand_off{position:absolute;width:100%;height:16%;margin-top: 30%;background:url(../img/hand_off.png) no-repeat top center;background-size:auto 100%;}
+.hand_on{position:absolute;width:100%;height:16%;margin-top: 30%;background:url(../img/hand_on.png) no-repeat top center;background-size:auto 100%;display:none;}
+
+#guide_txt{background: url(../img/gudtxt.png) no-repeat top center;background-size:100% auto;width:100%;height:30%;margin: 0 auto;}
+#real_play{background: url(../img/real_start.png) no-repeat top center;background-size:100% auto;width:80%;height:15%;margin: 0 auto;}
+
+.fail_box{width:100%;height:58%;}
+.play_again{background: url(../img/play_again.png) no-repeat center;background-size:100% auto;width:40%;height:10%;margin:0 auto;}
+.share_bt{background: url(../img/share_bt.png) no-repeat center;background-size:100% auto;width:80%;height:14%;margin:0 auto;}
+.gift_bt{background: url(../img/gift_bt.png) no-repeat center;background-size:100% auto;width:80%;height:14%;margin:0 auto;}
+.killnum01{font-size:6em;color:#610b03;font-family: 'Georgia';margin:23% 14% 0 0;clear:both;}
+.killnum02{font-size:3em;margin:22% 0 0 53%;clear:both;color:#610b03;font-weight:bold;}
+
+#game_pane{position:absolute;z-index:198;margin-top:6em;width:100%;height:90%;display:none;}
+#game_bg{position:absolute;background: url(../img/gamebg.png) no-repeat top center;background-size: 100% auto;width: 100%;height:100%;}
+#scorebar{position:absolute;background: url(../img/scorebar.png) no-repeat top center;background-size: 100% auto;width: 100%;height:10%;margin-top:4%;text-align:center;-moz-user-select:none;hutia:expression(this.onselectstart=function(){return(false)});}
+#scorebar div{font-size:2.6em;color:#fff;width:15%;margin:5% auto 0 auto;-moz-user-select:none;hutia:expression(this.onselectstart=function(){return(false)});}
+
+#game_boss_pane{position:absolute;width: 100%;height:100%;margin-top:0%;}
+#game_boss{position:absolute;width: 100%;height:4%;margin-top:42%;opacity:0;}
+.boss_1{background: url(../img/boss_1.png) no-repeat top center;background-size:auto 100%;}
+.boss_2{background: url(../img/boss_2.png) no-repeat top center;background-size:auto 100%;}
+.boss_3{background: url(../img/boss_3.png) no-repeat top center;background-size:auto 100%;}
+.boss_over_1{background: url(../img/boss_over_1.png) no-repeat top center;background-size:auto 100%;}
+.boss_over_2{background: url(../img/boss_over_2.png) no-repeat top center;background-size:auto 100%;}
+.boss_over_3{background: url(../img/boss_over_3.png) no-repeat top center;background-size:auto 100%;}
+#game_sky{position:absolute;background: url(../img/sky.png) no-repeat top center;background-size: 100% auto;width: 100%;height:100%;}
+#boss_talk{position:absolute;width: 100%;height:80%;margin-top:6%;opacity:0;}
+.boss_talk_1{background: url(../img/boss_talk_1.png) no-repeat top center;background-size:auto 100%;}
+.boss_talk_2{background: url(../img/boss_talk_2.png) no-repeat top center;background-size:auto 100%;}
+.boss_talk_3{background: url(../img/boss_talk_3.png) no-repeat top center;background-size:auto 100%;}
+
+#bz_box{position:absolute;width:100%;height:100%;}
+#bz{background: url(../img/bz.png) no-repeat top center;background-size: 100% auto;width: 20%;height:20%;margin:106% auto 0 auto;}
+#bzgif_box{position:absolute;width:100%;height:100%;z-index:99;}
+#bzgif_pane{position: absolute;width:100%;height: 100%;text-align: center;}
+#bzgif{display:none;background: url(../img/bzgif.png) no-repeat top center;background-size: 100% auto;width: 20%;height:20%;margin:106% auto 0 auto;}
+#bigfire{position:absolute;8width:100%;height:20%;margin-top:50%;text-align:center;display: none;}
+#bigfire img{width:20%;}
+#ctl_box{position:absolute;width:100%;height:100%;}
+#fire_line_pane{width:84%;margin:80% auto 0 auto;height:20%;}
+#fire_line{background:url(../img/fline.png) no-repeat bottom center;background-size:auto 90%;height:20%;position:absolute;width:84%;}
+#hover_pane{
+background: #b30e0e;
+border-top: 10px solid #fff;
+border-bottom: 10px solid #fff;
+height: 2px;
+margin-top: 0;
+position: absolute;
+width: 84%;
+border-left: 0;
+border-right: 0;
+opacity: 0.8;
+}
+#fire_gif{position:absolute;width:84%;margin-top:0;text-align:center;}
+#fire_gif img{width:10%;}
+
+#all_ctl{width:100%;position:absolute;height:100%;}
+#drawing{margin:0 auto;}
+
+#gfail_box{opacity:0;position:absolute;width:100%;height:4%;margin-top:42%;background: url(../img/boss_succ.png) no-repeat top center;background-size:auto 100%;z-index:100;}
+#boss_talk_succ{position:absolute;width:38%;height:100%;margin:-14% 0 0 38%;background: url(../img/boss_talk_succ.png) no-repeat top center;background-size:100% auto;opacity: 0;}
+
+/*已测*/
+@media only screen and (min-device-width:720px) and (max-device-width:800px) {
+	#pop_div{height:75%;}
+	#boss_talk{margin-top:13%;}
+	.fail_box{height:44%;}
+}
+
+
+
+
+/* iphone 4 */
+@media only screen and (device-height:480px) and (-webkit-min-device-pixel-ratio:2){
+	html,body{overflow-x: hidden;overflow-y: auto;height:500px;}
+	#loadmask{height:500px;}
+
+	#start_div{bottom:-15%;}
+	#left_dl{width:30%;margin-top:18%;}
+	#right_dl{width:30%;margin-top:18%;}
+	#home_box{height:98%}
+	#zyan{position:absolute;background: url(../img/zyan.png) no-repeat top center;background-size: auto 100%;width: 100%;height:98%;display:none;}
+	#home_gj{position:absolute;background: url(../img/ssdl.png) no-repeat;background-size:100% 100%;width:88.8%;height:24%;top:63%;left:5.8%;}
+	#home_bg{position:absolute;background: url(../img/homebg.png) no-repeat top center;background-size: auto 98%;width: 100%;height:100%;}
+	#game_bg{position:absolute;background: url(../img/gamebg.png) no-repeat top center;background-size: auto 100%;width: 100%;height:100%;}
+	#pop_div{height:94%;top:15%;}
+	#guide_txt{height:32%;}
+	#real_play{height:18%}
+	#denglong_box{height:45%;}
+	#guide_bz{height:20%;margin-top:32%}
+	#scorebar{height:14%}
+	#boss_talk{margin-top:20%;}
+	#boss_talk_succ{margin-top: -24%}
+	.killnum01{margin:23% 19% 0 0;}
+	.killnum02{margin:22% 0 0 56%;}
+
+
+
+}
+
+/* iphone 5 */
+@media only screen and (device-height:568px) and (max-device-width:640px) and (-webkit-min-device-pixel-ratio:2) {
+	#home_gj{top:53%;height:28%;}
+	#pop_div{height:80%;}
+	#guide_bz{;margin-top:34%}
+	#boss_talk{margin-top:13%;}
+	#bz{margin:105% auto 0 auto;}
+	.fail_box{height:58%;}
+	.killnum02{margin:23% 0 0 53.4%;}
+}
+
+
+
+/* iphone 6 */
+@media only screen and (device-height:667px) and (max-device-width:750px) and (-webkit-min-device-pixel-ratio:2) {
+	#start_div{bottom:8%;}
+	#home_gj{top:52%;}
+	#pop_div{height:76%;}
+	#scorebar{margin-top:8%;}
+	#boss_talk{margin-top:10%;}
+	.killnum02{font-size:3.4em;margin:24% 0 0 54%;}
+
+
+}
+
+/* iphone 6plus */
+@media only screen and (device-height:736px) and (max-device-width:750px) and (-webkit-min-device-pixel-ratio:2) {
+	#start_div{bottom:2%;}
+	#pop_div{height:82%;}
+	#guide_bz{height:20%;margin-top:28%}
+	#guide_txt{height:28%;}
+	#scorebar{margin-top:10%;}
+	.fail_box{height:52%;}
+	#boss_talk{margin-top:13%;}
+	.killnum02{margin:24.4% 0 0 55%;}
+}
+
+
+/*未测*/
+@media only screen and (device-width:720px) and (device-height:1280px) {
+	#start_div{border:1px solid red;}
+	#pop_div{height:80%;}
+	#game_boss_pane{margin-top:-10%;}
+	#game_pane{height:86%;}
+	#boss_talk{margin-top:12%;}
+	.fail_box{height:58%;}
+	#gfail_box{margin-top:38%;}
+	#boss_talk_succ{margin:-20% 0 0 38%;}
+	.killnum02{font-size:3.4em;margin:24% 0 0 54%;}
+
+}
+/*未测*/
+@media only screen and (device-width:1080px) and (device-height:1776px) {
+	#start_div{border:1px solid blue;}
+	#pop_div{height:85%;}
+	#scorebar{margin-top:6%;}
+	#game_pane{height:86%;}
+	#boss_talk{margin-top:14%;}
+	#guide_txt{height:26%;}
+	.fail_box{height:58%;}
+	#gfail_box{margin-top:38%;}
+	#boss_talk_succ{margin:-20% 0 0 38%;}
+	.killnum02{font-size:3.4em;margin:24% 0 0 54%;}
+}
+
+
+/* note3 */
+@media only screen and (device-width:1080px) and (device-height:1920px) {
+	#pop_div{height:85%;}
+	#scorebar{margin-top:6%;}
+	#game_pane{height:87%;}
+	#boss_talk{margin-top:14%;}
+	#guide_bz{margin-top:30%;}
+	#guide_txt{height:26%;}
+	.fail_box{height:51%;}
+	.killnum02{font-size:3.4em;margin:24% 0 0 54%;}
+}
+
+
+
+#guide_path {stroke-dasharray: 200;stroke-dashoffset: 0;-webkit-animation: dash 2s linear infinite;animation: dash 2s linear infinite;}
+@-webkit-keyframes dash {to {stroke-dashoffset: 100;}}
+@keyframes dash {to {stroke-dashoffset: 100;}}
